@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
     gem.name          = "fluent-plugin-rsyslog"
-    gem.version       = "0.1"
+    gem.version       = "0.1a"
 
     gem.authors       = ["Atanas Prezhdarov"]
     gem.email         = ["atanas.prezhdarov@gtt.net"]
