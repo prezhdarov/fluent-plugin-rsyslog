@@ -24,9 +24,9 @@ Gem::Specification.new do |gem|
 
 
     gem.add_dependency("fluentd", ["~> 1.11.3"])
-    gem.add_dependency("fluent-mixin-config-placeholders", ["~> 0.4.0"])
+    #gem.add_dependency("fluent-mixin-config-placeholders", ["~> 0.4.0"])
 
-    gem.add_development_dependency("rake", ["~> 12.0"])
+    gem.add_development_dependency("rake", ["~> 13.0"])
     gem.add_development_dependency("rr", ["~> 1.0"])
     gem.add_development_dependency("test-unit", ["~> 3.3"])
     gem.add_development_dependency("test-unit-rr", ["~> 1.0"])

@@ -7,7 +7,7 @@ class SyslogFormatterTest < Test::Unit::TestCase
     end
 
     CONFIG = %[
-        @type rsyslog
+        @type syslog
     ]
 
     
